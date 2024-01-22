@@ -44,3 +44,28 @@ body {
     font-size: 14px;
     font-family: "DM Sans ", sans-serif;
 }
+
+.biblioteca {
+    background-color: #121212;
+    border-radius: 8px;
+    padding: 2px 2px 2px 16px;
+}
+
+.biblioteca ul {
+    margin-top: 10px;
+    padding: 0 20px 10px 20px;
+}
+
+.biblioteca ul li {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+.biblioteca ul li a {
+    color: #B3B3B3;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+    font-family: "DM Sans", sans-serif;
+}
