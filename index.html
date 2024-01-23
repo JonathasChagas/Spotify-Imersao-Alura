@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Spotify Imersão</title>
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
 </head>
 
 <body>
@@ -18,42 +19,60 @@
                 </a>
             </div>
             <div>
-                <div>
-                    <ul>
-                        <li>
-                            <a href="">
-                                <span class="fa fa-home"></span>
-                                <span>Início</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="">
-                                <span class="fa fa-search"></span>
-                                <span>Buscar</span>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
+                <ul>
+                    <li>
+                        <a href="">
+                            <span class="fa fa-home"></span>
+                            <span>Início</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <span class="fa fa-search"></span>
+                            <span>Buscar</span>
+                        </a>
+                    </li>
+                </ul>
             </div>
         </nav>
 
-        <br>
-        
-        <div class="biblioteca">
-            <ul>
-                <li>
-                    <a href="">
-                        <span class="fa fa-book"></span>
-                        <span>Biblioteca</span>
-                    </a>
+        <div class="library">
+            <div class="library__content">
+                <button class="library__button">
+                    <span class="fa fa-book"></span>
+                    <span>Sua Biblioteca</span>
+                </button>
 
-                    <a href="">
-                        <span class="fa fa-plus"></span>
-                    </a>
-                </li>
-            </ul>
+                <a href="">
+                    <span class="fa fa-plus"></span>
+                </a>
+            </div>
+
+            <section class="section-playlist">
+                <div class="section-playlist__content">
+                    <span class="text title">Crie sua primeira playlist</span>
+                    <span class="text subtitle">É fácil, vamos te ajudar.</span>
+                    
+                    <button class="section-playlist__button">
+                        <span>Criar Playlist</span>
+                    </button>
+                </div>
+            </section>
+
+            <div class="cookies">
+                <a href="">Cookies</a>
+            </div>
+
+            <div class="languages">
+                <button class="languages__button">
+                    <span class="fa fa-globe"></span>
+                    <span>Português do Brasil</span>
+                </button>
+            </div>
+
         </div>
     </div>
-    
+
 </body>
+
 </html>
