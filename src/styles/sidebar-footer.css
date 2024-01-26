@@ -224,7 +224,7 @@ body {
 }
 
 .footer {
-    position: absolute;
+    position: fixed;
     bottom: 0;
     background: linear-gradient(to right, #AE2896, #509BF5);
     width: 100%;
