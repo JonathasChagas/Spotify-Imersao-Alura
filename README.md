@@ -5,4 +5,4 @@
 
 ### Sobre o projeto 
 
-Projeto realizado durante a "Imersão Front-end" feita pela Alura, tendo como instrutores Guilherme Lima, Fernanda Degolin e Mayara Cardoso. Foram usadas as tecnologias HTML, CSS e JavaScript para a recriação de uma página web baseada no Spotify. Partindo de uma revisão básica dos conceitos, fora alcançado com sucesso a meta junto de um período de grande aprendizada no mundo do desenvolvimento web.
+Projeto realizado durante a "Imersão Front-end" feita pela Alura, tendo como instrutores Guilherme Lima, Fernanda Degolin e Mayara Cardoso. Foram usadas as tecnologias HTML, CSS e JavaScript para a recriação de uma página web baseada no Spotify.
